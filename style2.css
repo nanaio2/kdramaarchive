@@ -1,0 +1,240 @@
+
+
+body {
+    background-color: #FFF8F0;
+    color: #B9828A;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: #E8BFC3;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+h1 {
+    margin: 10px;
+    color: white;
+}
+
+header p {
+    color: #FFF8F0;
+}
+
+/* ===== Logo ===== */
+.logo {
+    text-align: center;
+}
+
+/* ===== Navigation ===== */
+nav {
+    background-color: #FFF0F0;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: #B9828A;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #E8BFC3;
+    text-decoration: underline;
+}
+
+/* ===== Introduction ===== */
+.intro {
+    width: 85%;
+    margin: 20px auto;
+    text-align: center;
+    line-height: 1.6;
+}
+
+/* ===== Heading ===== */
+h2 {
+    color: #B9828A;
+    border-bottom: 2px solid #E8BFC3;
+    padding-bottom: 8px;
+}
+
+/* ===== Container ===== */
+.container {
+    width: 85%;
+    margin: 20px auto;
+    display: flex;
+    gap: 20px;
+}
+
+/* ===== Sidebar ===== */
+.sidebar {
+    width: 25%;
+    background-color: #FFF0F0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.sidebar h3 {
+    color: #B9828A;
+}
+
+.sidebar li {
+    margin-bottom: 10px;
+}
+
+/* ===== Main Content ===== */
+.main-content {
+    width: 75%;
+    background-color: #FFFDFB;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+
+/* ===== Button ===== */
+.tombol {
+    display: inline-block;
+    background-color: #E8BFC3;
+    color: white;
+    padding: 10px 18px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.tombol:hover {
+    background-color: #B9828A;
+}
+
+/* ===== Table ===== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td {
+    border: 1px solid #E8BFC3;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #E8BFC3;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #FFF0F0;
+}
+
+tr:hover {
+    background-color: #F8E3E4;
+}
+
+/* ===== List ===== */
+li {
+    margin: 8px;
+}
+
+/* ===== Gallery ===== */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    gap: 20px
+    
+}
+
+.gallery-item {
+    width: 200px;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+
+/* ===== Highlight ===== */
+.highlight {
+    background-color: #F8E3E4;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* ===== Button JavaScript ===== */
+button {
+    background-color: #E8BFC3;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #B9828A;
+}
+
+/* ===== Article ===== */
+.drama-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.kotak-drama {
+    width: 280px;
+    background-color: #FFF0F0;
+    padding: 15px;
+    border: 1px solid #E8BFC3;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.img-drama {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.teks {
+    line-height: 1.6;
+}
+
+/* ===== Video ===== */
+.video {
+    text-align: center;
+    margin-top: 25px;
+}
+
+/* ===== Footer ===== */
+footer {
+    background-color: #E8BFC3;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+footer h3 {
+    color: #FFF0F0;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #F8E3E4;
+}
