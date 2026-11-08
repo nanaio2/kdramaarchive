@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>20th Century Girl</title>
+
+    <link rel="icon" href="images/logokdr.jpeg">
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="images/logokdr.jpeg" width="80" alt="Logo K-Drama Archive">
+        </div>
+
+        <h1>K-DRAMA ARCHIVE</h1>
+        <p>Your Guide to Korean Drama World</p>
+    </header>
+
+
+    <!-- NAVIGATION -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="registration.html">Registration</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+
+
+    <section class="registration">
+
+        <h2>Bergabunglah dengan kami!</h2>
+
+        <p>
+            Bergabunglah dengan komunitas kami dan temukan berbagai
+            informasi menarik seputar drama Korea!
+        </p>
+
+        <form>
+
+            <fieldset>
+
+                <legend>Personal Information</legend>
+
+                <label>Nama lengkap</label><br>
+                <input type="text" name="nama">
+                <br><br>
+
+                <label>Alamat Email:</label><br>
+                <input type="email" name="email">
+                <br><br>
+
+                <label>Username:</label><br>
+                <input type="text" name="username">
+                <br><br>
+
+                <label>Password:</label><br>
+                <input type="password" name="password">
+                <br><br>
+
+                <label>Tanggal lahir:</label><br>
+                <input type="date" name="tanggal_lahir">
+                <br><br> 
+
+            </fieldset>
+
+
+            <br>
+
+
+            <fieldset>
+
+                <legend>K-Drama Preferences</legend>
+
+                <label>Favorite Drama:</label><br>
+
+                <select name="drama">
+                    <option value="">-- Choose Your Favorite Drama --</option>
+                    <option>My Demon</option>
+                    <option>20th Century Girl</option>
+                    <option>Twinkling Watermelon</option>
+                    <option>Teach You a Lesson</option>
+                    <option>True Beauty</option>
+                    <option>Other</option>
+                </select>
+
+                <br><br>
+
+                <label>Kenapa kamu suka drama Korea?</label><br>
+                <textarea rows="5"></textarea>
+
+
+            
+            </fieldset>
+
+            <button type="button" 
+            onclik="
+            document.getElementById('tombol').innerHTML='Success';
+            document.getElementById('tombol').style.backgroundColor='green';
+            document.getElementById('tombol').style.color='white';
+            " id="tombol">Register Now</button>
+
+
+        </form>
+
+       
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer>
+        <p>K-Drama Archive</p>
+        <p>Design by nanakyoptie</p>
+        <p>Copyright &copy; 2026 K-Drama Archive</p>
+    </footer>
+
+</body>
+</html>
